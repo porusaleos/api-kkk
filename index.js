@@ -32,4 +32,4 @@ app.use('/api/transaksi', require('./routes/transaksi'));
 
 // Export serverless handler (untuk AWS Lambda atau serverless environment)
 module.exports = app;
-module.exports.handler = serverless(app);
+module.exports = serverless(app);
